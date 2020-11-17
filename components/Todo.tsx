@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
 		textAlign: 'center',
 	},
 	logo: {
-		left: 'unset !important'
+		left: 'unset !important',
 	},
 	srOnly: {
 		width: 0,
@@ -131,4 +131,4 @@ const Todo = () => {
 	)
 }
 
-export default Todo;
+export default Todo
