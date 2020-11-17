@@ -1,7 +1,8 @@
 import Fork from '../components/Fork'
 import Todo from '../components/Todo'
 
-export default function Index({ stars }) {
+export default function Index({ stars })
+{
 	return (
 		<>
 			<Fork stars={stars} />
@@ -10,7 +11,8 @@ export default function Index({ stars }) {
 	)
 }
 
-export async function getServerSideProps() {
+export async function getServerSideProps()
+{
 	const res = await fetch(
 		'https://api.github.com/repos/ooade/NextSimpleStarter'
 	)
